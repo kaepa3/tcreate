@@ -21,7 +21,9 @@ M.setup = function(args)
 end
 
 M.hello = function()
+    print("kata")
     return module.my_first_function(M.config.opt)
 end
+
 
 return M
